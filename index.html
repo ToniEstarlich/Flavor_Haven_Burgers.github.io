@@ -1,0 +1,438 @@
+<html lang="en">
+<head>
+  <title>Flavor Haven Burgers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<video id="background-video" autoplay loop muted >
+    <source src="videos/video480.mp4" type="video/mp4"></video>
+    <div id="Home" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+      <h1 id="Welcome">Welcome to <b>Flavor Haven Burgers</b></h1>
+      <p>Indulge in a <b>Culinary Adventure</b> of Irresistible Flavors</p>
+      <img src="pictures/logo_yellow.png"class="logo-header"   width="250" height="250">
+    </div>
+          <!--NAV-BAR-->
+          <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <a class="navbar-brand" href="#Home"><img src="pictures/logo_white.png" class="logo-header"   width="150" height="150"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section1">Menu</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#section4">Sides</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#section41">Smoothies</a>
+                </li> 
+                <li class="nav-item">
+                  <a  href="#Cart" >
+                       <!-- Trigger the modal with a button -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#myModal"><span  class="material-symbols-outlined" style= "font-size: 3em;">
+                  shopping_cart</a>
+                </li>
+              </ul>
+            </div>  
+          </nav>
+          <br>
+          <!--END NAV-BAR-->
+<!--HEAD-->
+<div id="About" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Our <b>Culinary</b> Expertise</h3>
+      <span class="material-symbols-outlined" style="font-size: 8em;">restaurant</span>
+      <p>With years of culinary expertise under our belt, our chefs meticulously craft each burger to perfection.</p>
+      <p>From selecting the finest ingredients to perfecting cooking techniques, our dedication to excellence shines through in every bite.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Quality</b> Ingredients</h3>
+      <span class="material-symbols-outlined" style="font-size: 8em;">menu_book</span>
+      <p>At Flavor Haven Burgers, we believe that great burgers start with great ingredients. That's why we source only the freshest, highest-quality meats, cheeses, and produce for our creations. </p>
+      <p>From locally sourced beef to artisanal buns, we spare no expense in ensuring that every ingredient contributes to the exceptional flavor of our burgers.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3><b>Service</b> Philosophy</h3> 
+      <span class="material-symbols-outlined" style="font-size: 8em;">storefront</span>   
+      <p>Our commitment to customer satisfaction goes beyond serving delicious food – it's about providing an unforgettable dining experience from start to finish.</p>
+      <p>Whether you're dining in, ordering takeout, or hosting an event, our friendly and attentive staff are dedicated to exceeding your expectations with prompt service and a warm, welcoming atmosphere.</p>
+    </div>
+  </div>
+</div>
+ <!--MENU-->
+<!--FOOD MENU-->
+<div id="section1" class="container-fluid " style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B10.png" alt="burguer" width="240" height="230">
+        <h1>Vegan Beyond Burger</h1>
+        <p class="price">£7.99</p>
+        <p>Plant-based patty, avocado, grilled onions, lettuce, vegan aioli.</p>
+        <p>
+          <!-- Trigger the modal with a button -->
+   <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button>
+   
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title"><b>Flavor Haven Burgers</b></h4>
+                </div>
+                <div class="modal-body">
+                  <p>Add in your menu</p> Add: <input type="number" id="myNumber"><br>Table: <input type="number" id="myNumber">
+                </div>
+                <div class="modal-footer">
+                  <button type="button_modal" class="btn btn-default" data-dismiss="modal">Add</button>
+                </div>
+              </div>
+            </div>
+          </div></p>
+       </div>
+     </div>
+     <div class="col-sm-4">
+       <div class="card">
+         <img src="pictures/B3.png" alt="burguer" width="230" height="230">
+         <h1>Southwest Fiesta</h1>
+         <p class="price">£9.99</p>
+         <p>Beef patty, guacamole, salsa, lettuce, pepper jack cheese.</p>
+         <p>       <!-- Trigger the modal with a button -->
+           <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to cart</button>
+        
+</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B2.png" alt="burguer" width="230" height="230" >
+        <h1>Classic Cheeseburger</h1>
+        <p class="price"> £6.99</p>
+        <p> Beef patty, American cheese, lettuce, tomato, pickles, ketchup.</p>
+        <p><!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button>
+       </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section2" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B4.png" alt="burguer" width="270" height="230">
+        <h1>Mushroom Swiss</h1>
+        <p class="price">£8.49</p>
+        <p> Beef patty, Swiss cheese, sautéed mushrooms, lettuce, mayo.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B5.png" alt="burguer" width="230" height="230">
+        <h1>Greek Lamb Burger</h1>
+        <p class="price">£8.29</p>
+        <p>Seasoned lamb patty, feta cheese, tzatziki sauce, lettuce, tomato.</p>
+        <p>       <!-- Trigger the modal with a button -->
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to cart</button>
+       
+          <!-- Modal -->
+         <div class="modal fade" id="myModal" role="dialog">
+           <div class="modal-dialog">
+           
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title">Is add to Menu</h4>
+               </div>
+               <div class="modal-body">
+                 <p>Vegan Beyond Burger</p> Add: <input type="number" id="myNumber">
+               </div>
+               <div class="modal-footer">
+                 <button type="button_modal" class="btn btn-default" data-dismiss="modal">Add</button>
+               </div>
+             </div>
+           </div>
+         </div></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B6.png" alt="burguer" width="270" height="230">
+        <h1>Classic Fish Burger</h1>
+        <p class="price">£8.49</p>
+        <p>Crispy fish fillet, lettuce, tomato, tartar sauce on a toasted bun.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section3" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B11.png" alt="burguer" width="230" height="230">
+        <h1>Grilled Chicken</h1>
+        <p class="price">£7.49</p>
+        <p> Tender chicken, cheese, lettuce, tomato, mayo on bun.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B7.png" alt="burguer" width="230" height="230">
+        <h1>BBQ Bacon Burger</h1>
+        <p class="price">£7.49</p>
+        <p>Juicy beef, bacon, cheddar, BBQ sauce, lettuce, tomato.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/B9.png" alt="burguer" width="230" height="230">
+        <h1>Spicy Jalapeño Burger</h1>
+        <p class="price">£8.29</p>
+        <p>Beef patty, pepper jack cheese, jalapeños, lettuce, spicy mayo.></p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section4" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/sweet_chips.png" alt="burguer" width="230" height="230">
+        <h1>Sweet Potato Chips:</h1>
+        <p class="price">£3.49</p>
+        <p>Thinly sliced, lightly seasoned sweet potatoes fried to golden perfection, offering a delightful sweet and savory flavor profile.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/purple_chips.png" alt="burguer" width="200" height="230">
+        <h1>Purple Potato Chips</h1>
+        <p class="price">£3.79</p>
+        <p>Thin slices of vibrant purple potatoes fried crispy, boasting a nutty taste and striking appearance.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/chips.png" alt="burguer" width="230" height="230">
+        <h1>Classic Potato Chips</h1>
+        <p class="price">£2.99</p>
+        <p>potatoes fried Crispy, golden slices of potato seasoned with a perfect balance of salt for addictive crunchiness.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section5" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/S1.png" alt="burguer" style="width:70%">
+        <h1>Greek Salad</h1>
+        <p class="price">£5.99</p>
+        <p>Fresh romaine lettuce, juicy tomatoes, cucumbers, olives, feta cheese, and tangy vinaigrette, bursting with Mediterranean flavors.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/S3.png" alt="burguer" style="width:70%">
+        <h1>Quinoa Salad</h1>
+        <p class="price">£6.49</p>
+        <p>Flavorful nutrient-rich quinoa, cherry tomatoes, cucumbers, olives, feta, and zesty lemon dressing, a satisfying and refreshing option.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/S2.png" alt="burguer" width="230" height="250">
+        <h1>Falafel Salad</h1>
+        <p class="price">£7.29</p>
+        <p> Crisp mixed greens, crunchy falafel balls, diced tomatoes, cucumbers, tahini dressing, a flavorful and protein-packed Mediterranean delight.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="section41" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/pink.png" alt="burguer" width="200" height="280">
+        <h1>Pink Paradise</h1>
+        <p class="price">£4.49</p>
+        <p>A blend of strawberries, banana, Greek yogurt, and honey for a refreshing pink treat.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/green.png" alt="burguer" width="150" height="280">
+        <h1>Green Goddess</h1>
+        <p class="price">£4.99</p>
+        <p> Spinach, kale, pineapple, mango, and coconut water create a vibrant green drink packed with nutrients.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/red.png" alt="burguer" width="130" height="280">
+        <h1>Radiant Red Berry</h1>
+        <p class="price"> £4.79</p>
+        <p>Raspberries, strawberries, cranberry juice, and orange a bold and tangy red concoction.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="section42" class="container-fluid" style="padding-top:70px;padding-bottom:70px">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/yellow.png" alt="burguer" width="200" height="280">
+        <h1>Sunshine Yellow</h1>
+        <p class="price">£4.59</p>
+        <p>Mango, pineapple, banana, and turmeric combine for a bright and tropical yellow beverage.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/Blue.png" alt="burguer" width="200" height="280">
+        <h1>Blueberry Blast</h1>
+        <p class="price">£4.69</p>
+        <p> Blueberries, banana, almond milk, and a hint of vanilla and antioxidant-rich blue-purple drink.</p>
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card">
+        <img src="pictures/purple.png" alt="burguer" width="150" height="280">
+        <h1>Purple Power</h1>
+        <p class="price">£4.89</p>
+        <p>Acai berries, blackberries, blueberries, Greek yogurt create a rich and vibrant purple drink.
+        <p><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add to Cart</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- Contact Section -->
+ <div class="w3-container w3-padding-64" id="Contact">
+    <h1 id="grey-Contact"><b>Contact</b></h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large">
+      <p id="grey-Contact"><b>Flavor Haven Burgers, 123 Main Street, Bristol, BS1 1AA, United Kingdom</b></p>
+    <p>You can also contact us by phone <b> +44 117 123 4567</b> or email <b>Flavor-Haven-Burgers@catering.com</b>, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2024-02-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5><b>Flavor Haven Burgers</b></h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5><b>Food United</b></h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5><b>Restaurant Corporation</b></h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href=><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href=><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href= ><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href=><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href=><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href=><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href=></i></a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>	
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p><u><a href=><b>National Restaurant Corporation</b></a></u> is a Registered MSP/ISO of Ela, Inc. Bristol [a wholly owned subsidiary of UK Bristol, MN]</p>
+        <p class="h6">© All right Reversed.<a class="text-green ml-2" href= ><b>SunlimeRestaurants</b></a></p>
+      </div>
+      <hr>
+    </div>	
+  </div>
+</section>
+<!-- ./Footer -->
+
+<!-- this a Javascript for Add botton menu -->
+<script>
+  function myFunction() {
+    document.getElementById("myNumber").stepUp(5);
+  }
+  </script>
+</body>
+
+<!-- this a Javascript for Add botton menu -->
+<script>
+  function Cart() {
+    document.getElementById("myNumber").stepUp(5);
+  }
+</script>
+</body>

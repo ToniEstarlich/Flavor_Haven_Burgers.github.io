@@ -1,0 +1,217 @@
+body {
+    font-family: Garamond, serif;
+    color: #f6f6f6;
+}
+h1, h3, .nav-link {
+    font-family: Garamond, serif;
+}
+
+.material-symbols-outlined 
+{
+ color:  #9fff40;
+}
+b {
+    color:  #9fff40 !important;
+}
+p {
+    font-size: 150%;
+}
+.nav-link {
+    font-size: 150%;
+}
+/*HOME*/
+/* video background */
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#Home{
+    background-color: #f9f9f9;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-shadow: 2px 2px 2px#3a3a3a;
+    font-size: 150%;
+}
+#Welcome {
+    margin-top: 10%;
+}
+
+#About {
+    margin-top: 0%;
+    background-color: #3a3a3a;
+}
+  
+/*END HOME*/
+/*MENU*/
+#section1 {
+    position: relative;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-image: linear-gradient(to bottom , #3d3d3d, #A2B814 );
+}
+#section2 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #7b7b7b;
+    background-image: linear-gradient(to bottom, #A2B814, #217962 );
+}
+#section3 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #A2B814;
+    background-image: linear-gradient(to bottom, #217962,  #195550 );
+}
+#section4 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #a9a2a7;
+    background-image: linear-gradient(to bottom, #195550 ,#182c4a );
+}
+#section5 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #A2B814;
+    background-image: linear-gradient(to bottom, #182c4a , #36184a);
+}
+#section41 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #F7D4EC;
+    background-image: linear-gradient(to right, #340d47 , #F7D4EC);
+}
+#section42 {
+    color: #fcfcfc;
+    text-shadow: 2px 2px 2px #3d3d3d;
+    background-color: #AE0D7A;
+    background-image: linear-gradient(to right, #AE0D7A , #f9f889);
+}
+/*card menu*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    align-items: center;
+    background: none;
+    border-radius: 30px;
+    margin-top: 2%;
+  }
+  
+  .price {
+    color: #60aa3b;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(82, 82, 82);
+    background-color: #affe4f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 30px;
+  }
+  .card button:hover {
+    opacity: 0.5;
+  }
+
+  .modal-content {
+    
+    background-image: linear-gradient(to top,#3d3d3d, #3d3d3d, #8e8e8d );
+    border-radius: 30px;
+  }
+/*card menu*/
+/*END MENU*/
+/*CONTACT*/
+#Contact {
+    background-color: #4e5043;
+    background: rgba(0, 0, 0, 0.5);
+}
+/*This is another alternative of design in CSS for Contact menu
+/*END CONTACT*/
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background:  #3d3d3d!important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
